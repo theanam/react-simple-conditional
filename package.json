@@ -26,5 +26,10 @@
         "babel-plugin-transform-object-rest-spread": "^6.23.0",
         "babel-plugin-transform-react-jsx": "^6.24.1",
         "babel-preset-env": "^1.5.1"
+    },
+    "license":"MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/theanam/react-simple-conditional.git"
     }
 }
