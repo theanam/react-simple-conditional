@@ -1,8 +1,7 @@
-## React Simple Conditional Component that behaves like a div.
+## Conditional render component for React
+This simple conditional components only renders its children if the `condition` prop has a value that is `true` or **truthy** in JavaScript. If the condition prop has a value that interpretes as `false`, nothing (`null`) will be rendered.
 
-This simple conditional components only renders if the `condition` prop has a value that is `true` or **truthy** in JavaScript. If the condition prop has a value that interpretes as `false`, nothing will be rendered.
-
-The component renders a standard `<div>` and supports children like regular `<div>`. All the *props* and *children* that you supply to the component gets passed to the div. 
+The component renders nothing by itself, it uses [React Fragments](https://reactjs.org/docs/fragments.html) . All the *props* and *children* that you supply to the component gets passed to the div. 
 
 Usage: 
 
@@ -20,12 +19,6 @@ Usage:
         <p>This will be rendered if 'someCondition' is true</p>
     </Conditional>
 
-### Or use other props:
-
-    <Conditional style={{color:'#F00'}} condition={someCondition}>
-        This red text will only appear if 'someCondition' is true
-    </Conditional>
-
 ### Full Example: 
 
     import React, { Component } from 'react';
@@ -37,8 +30,7 @@ Usage:
     render() {
         return (
             <Conditional 
-            condition={this.state.renderCondition}
-            style={{color:'red'}}>
+            condition={this.state.renderCondition}>
                 <h1>Hello World</h1>
             </Conditional>
         );
