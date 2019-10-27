@@ -14,13 +14,13 @@ Usage:
     import Conditional from 'react-simple-conditional'
 
 ### Use it in JSX:
-
+```html
     <Conditional condition={someCondition}>
         <p>This will be rendered if 'someCondition' is true</p>
     </Conditional>
-
+```
 ### Full Example: 
-
+```js
     import React, { Component } from 'react';
     import Conditional from 'react-simple-conditional';
     class App extends Component {
@@ -38,7 +38,7 @@ Usage:
     }
 
     export default App;
-
+```
 ### License:
 
 This project is distributed under the [MIT License](https://opensource.org/licenses/MIT)
