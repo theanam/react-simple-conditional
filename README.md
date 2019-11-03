@@ -1,4 +1,4 @@
-## Conditional render component for React
+## Conditional render component for React and React Native
 This simple conditional components only renders its children if the `condition` prop has a value that is `true` or **truthy** in JavaScript. If the condition prop has a value that interpretes as `false`, nothing (`null`) will be rendered.
 
 The component renders nothing by itself, it uses [React Fragments](https://reactjs.org/docs/fragments.html) . All the *props* and *children* that you supply to the component gets passed to the div. 

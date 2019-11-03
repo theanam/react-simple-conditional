@@ -1,9 +1,10 @@
 {
     "name": "react-simple-conditional",
-    "version": "1.0.1",
-    "description": "A very simple conditional component for react",
+    "version": "1.0.2",
+    "description": "A very simple conditional component for react and react native",
     "keywords": [
         "react",
+        "react native",
         "show-hide",
         "conditional",
         "rendering"
